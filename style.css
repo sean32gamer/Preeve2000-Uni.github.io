@@ -1,0 +1,56 @@
+h1{color:crimson;
+font-family: Helvetica;
+
+
+
+
+}
+
+body{font-family: helvetica;
+background-image:
+url(Space.jpg);
+background-attachment: fixed;}
+
+p, h2{color:white;
+margin-left: 1%;
+margin-right:1%;
+   
+   text-shadow:0px 0px 3px #000000;
+}
+
+ul
+{
+    padding:0; 
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    width:100%;
+}
+
+li{
+    background-color: crimson;
+    text-align: center;
+    box-sizing: content-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li:hover{
+    background-color: darkred;  
+}
+
+a{
+    
+    text-decoration: none;
+
+}
+
+
+a{color:#47d147;}
+
+
+a:hover{color:#009900;}
+
+.menu{color:gold;}
+
+.menu:hover{color:goldenrod;}
